@@ -1,0 +1,159 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+}
+.main-hdr {
+    display: grid;
+    grid-template-rows: repeat(3, 0.1fr);
+    grid-template-columns: 0.1fr 2fr 0.1fr;
+}
+.logo {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    margin: 0px;
+    padding: 0px;
+    height: 7vh;
+    justify-self: center;
+}
+.nav-toggle-btn {
+    grid-column: 3 / 4;
+    border-style: none;
+    background-color: transparent;
+    font-size: 150%;
+    float: right;
+    color: rgb(201, 85, 73);
+}
+.nav-toggle-btn:hover {
+    cursor: pointer;
+    color: black;
+}
+.main-hdr h1 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8vh;
+    font-size: 150%;
+}
+.page-btn-container {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-bottom-style: solid;
+    border-color: rgb(89, 89, 89);
+    padding-bottom: 5vh;
+}
+.page-btn {
+    margin-right: 2vw;
+    border: none;
+    background-color: transparent;
+    color: rgb(201, 85, 73);
+    font-size: 125%;
+    font-weight: bold;
+    text-decoration: none;
+}
+.page-btn:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+.nav-btn-container {
+    align-items: center;
+    box-shadow: 1vh 1vh 1vh rgb(207, 207, 207);
+    background-color: rgb(180, 180, 180);
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    padding: 0;
+    transition: 0.3s; 
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+.show-nav {
+    width: 20vw;
+}
+.nav-btn-container li {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 5vh;
+}
+.nav-btn-container ul {
+    margin-top: 8vh;
+    padding: 0px;
+}
+.nav-item {
+    border: none;
+    background-color: transparent;
+    color: rgb(153, 61, 61);
+    font-size: 120%;
+    font-style: normal;
+}
+.nav-btn:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+#void-btn {
+    font-size: 150%;
+    color: black;
+    margin-top: 43vh;
+}
+#void-text {
+    color: black;
+}
+main {
+    margin: 5vw;
+    margin-top: 5vh;
+}
+main h1 {
+    text-align: center;
+    margin-top: 10vh;
+}
+.main-text {
+    font-size: 128%;
+}
+.img-with-text {
+    background-image: url('https://www.portseattle.org/sites/default/files/2019-08/AirCanadaNewsRelease%20%281%29.jpg');
+    background-size: cover;
+    height: 90vh;
+}
+.img-with-text p {
+    position: relative;
+    top: 90%;
+    color: white;
+    margin: 3vh;
+    font-size: 135%;
+}
+.reviews-container {
+    text-align: center;
+    margin: 15vw;
+    padding: 5vh;
+    margin-top: 10vh;
+    box-shadow: 1vh 1vh 1vh rgb(207, 207, 207);
+    background-color: rgb(247, 247, 247);
+    font-size: 120%;
+}
+.review-img {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100%;
+}
+.reviewer-name {
+    color: rgb(189, 69, 69);
+}
+.review-btn {
+    background-color: transparent;
+    border-style: none;
+    font-size: 100%;
+    margin-top: 3vh;
+}
+.review-btn:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+.random-btn {
+    border-style: solid;
+    border-color: rgb(211, 151, 151);
+}
